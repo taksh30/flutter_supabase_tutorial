@@ -187,7 +187,10 @@ class _HomePageState extends State<HomePage> {
                 padding: const EdgeInsets.symmetric(horizontal: 5.0),
                 child: Card(
                   child: ListTile(
+                    // notes data
                     title: Text(note.content),
+
+                    // buttons
                     trailing: SizedBox(
                       width: 80,
                       child: Row(
